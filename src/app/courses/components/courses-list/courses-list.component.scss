@@ -1,0 +1,21 @@
+/* adicionando tamanho maximo de registros por pixels, ao atingir ele apresenta no scroll na tabela */
+mat-table {
+  overflow: auto;
+  max-height: 600px;
+}
+
+/* adicionando botões de ações a direita */
+.action-column {
+  flex: 0 0 75px;
+}
+
+/* centralizando botão de ações header */
+.action-column-header {
+  flex: 0 0 55px;
+}
+
+.color-header {
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+}
