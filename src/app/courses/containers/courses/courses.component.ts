@@ -1,12 +1,12 @@
 import { ErrorDialogComponent } from '../../../shared/components/error-dialog/error-dialog.component';
 import { Component, OnInit } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
 import { catchError, Observable, of } from 'rxjs';
 
 import { Course } from '../../model/course';
 import { CoursesService } from '../../services/courses.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatLegacySnackBar as MatSnackBar } from '@angular/material/legacy-snack-bar';
 import { ConfirmationDialogComponent } from 'src/app/shared/components/confirmation-dialog/confirmation-dialog.component';
 
 @Component({
