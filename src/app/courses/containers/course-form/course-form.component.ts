@@ -2,14 +2,14 @@ import { Location } from '@angular/common';
 import { CoursesService } from '../../services/courses.service';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, NonNullableFormBuilder, Validators } from '@angular/forms';
-import { MatLegacySnackBar as MatSnackBar } from '@angular/material/legacy-snack-bar';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { ActivatedRoute } from '@angular/router';
 import { Course } from '../../model/course';
 
 @Component({
   selector: 'app-course-form',
   templateUrl: './course-form.component.html',
-  styleUrls: ['./course-form.component.css']
+  styleUrls: ['./course-form.component.scss']
 })
 export class CourseFormComponent implements OnInit {
 

@@ -6,12 +6,12 @@ mat-table {
 
 /* adicionando botões de ações a direita */
 .action-column {
-  flex: 0 0 75px;
+  flex: 0 0 115px;
 }
 
 /* centralizando botão de ações header */
 .action-column-header {
-  flex: 0 0 55px;
+  margin: 0 auto;
 }
 
 .color-header {
